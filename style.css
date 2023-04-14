@@ -1,0 +1,249 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-image: url("Hbg.jpg");
+
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    font-size: large;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#hero {
+    background-size: cover;
+    background-position: center;
+    color: #d2c8c8;
+    margin: 0px;
+    padding: 100px;
+    text-align: center;
+
+}
+
+#hero h1 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 60px;
+    color: grey;
+}
+
+.typewriter {
+    overflow: hidden;
+    /* Hide the text that hasn't been "typed" yet */
+    /*   border-right: 0.15em solid orange;
+    /* Add a blinking cursor effect */
+    white-space: nowrap;
+    /* Prevent the text from wrapping to the next line */
+    margin: 0 auto;
+    /* Center the text horizontally */
+    letter-spacing: 0.15em;
+    /* Add spacing between letters */
+    animation:
+        typing 4.5s steps(30, end),
+        blink-caret 0.5s step-end infinite;
+    /* Add the typing and blinking cursor animations */
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent;
+    }
+
+    50% {
+        border-color: orange;
+    }
+}
+
+
+#hero p {
+    font-size: 24px;
+    margin-top: 20px;
+    color: rgb(243, 230, 230);
+}
+
+#about-me {
+    margin-top: 50px;
+    color: white;
+}
+
+#about-me h2 {
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.about-me-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-me-image {
+    flex: 1 0 150px;
+    margin-right: 20px;
+}
+
+.about-me-image img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.about-me-text {
+    flex: 2 1 0;
+    font-size: 22px;
+    line-height: 2.5;
+    font-family: "Gill Sans Extrabold", sans-serif;
+}
+
+/*.background {
+    background: url('tree.jpg') repeat-x;
+    animation: slide-background 20s linear infinite;
+}
+
+@keyframes slide-background {
+    from {
+        background-position: 1 9;
+    }
+
+    to {
+        background-position: 80% 0;
+    }
+}*/
+
+
+
+#skills {
+    margin-top: 50px;
+    color: white;
+}
+
+#skills h2 {
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+#skills ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#skills li {
+    margin-right: 20px;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #555;
+}
+
+
+.transition {
+    transition: all 1s ease-in;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#contact-me {
+    margin-top: 50px;
+    color: white;
+}
+
+#contact-me h2 {
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+#contact-me form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#contact-me .form-group {
+    margin-bottom: 20px;
+}
+
+#contact-me label {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#contact-me input[type="text"],
+#contact-me input[type="email"],
+#contact-me textarea {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#contact-me button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #555;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#contact-me button[type="submit"]:hover {
+    background-color: #d61e1e;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 0px;
+    font-size: small;
+}
